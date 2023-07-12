@@ -1,0 +1,14 @@
+/* создать класс такси {long id,String manufacturer,String model,
+String color,double maxSpeed,double pricePerKmh
+enum Category [ECONOMY,COMFORT,LUXURY,MINIVAN,LIMOUSINE] }
+создать на основе базу подключить бд создать класс TaxiRepository c jdbc
+(методы saveTaxi,getTaxiById, getAllTaxi ) создать TaxiController,
+ внедрить ТаксиРепозиторий сделать 3 эндпоинта на каждый метод репозитория*/
+
+
+
+
+
+ написать post метод  calculate
+ принимает айди машины и растояние
+ подсчитать цену и вернуть клиенту string "total price {price}"
